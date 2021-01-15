@@ -2,6 +2,7 @@
 // by avmal0
 // 128 lines of code | 15.01.21
 // Uses Console. Simple and working.
+// If you want to use calc or this code - it`s free. I don`t know why i said it. Ok.
 
 namespace simple_calc
 {
