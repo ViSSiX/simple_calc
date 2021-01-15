@@ -5,6 +5,11 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "simple_calc", "simple_calc.csproj", "{2DB751CE-07E7-44D9-AD76-8F8A908AC5F2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "project_files", "project_files", "{DE9F4E34-1706-4F18-9ED5-D04EFD27DE5F}"
+	ProjectSection(SolutionItems) = preProject
+		simple_calc.cs = simple_calc.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +23,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2DB751CE-07E7-44D9-AD76-8F8A908AC5F2} = {DE9F4E34-1706-4F18-9ED5-D04EFD27DE5F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8CB6DD10-78C3-4EB5-BA79-91DC24D37069}
