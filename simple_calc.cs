@@ -115,7 +115,8 @@ namespace simple_calc
                     {
                         Console.WriteLine("you enter description. good.");
                         Console.WriteLine("Description: you can use this program for math operations. You enter *, for example, and give to program numbers to calculate [1 * 2]. ");
-                        Console.WriteLine("You want exit program or check other operations? Enter N if you don`t want it. Y for check another items");
+                        Console.WriteLine("Exit?");
+                        Console.ReadLine();
                         goto case 9;
                     }
 
